@@ -38,7 +38,23 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+<!--
+{"jasonPosessions": {
+  "cat": "Mr.Kitty",
+  "roommates": [
+    {"Dave"},
+    {"Miller"}],
+  "love": [
+    {"Redsox"},
+    {"Patriots"},
+    {"Bruins"}],
+  "pastHomes": [
+    {"123 Fake Street"},
+    {"2 Mucninfo Road"}]
+}
+}
+
+ -->
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +62,28 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+<!--
+{"jasonPosessions": {
+    "cat": "Mr.Kitty",
+    "roommates": [
+      {"name": "Dave"},
+      {"name": "Miller"}],
+    "love": [
+      {"teamname": "Redsox"},
+      {"teamname": "Patriots"},
+      {"teamname": "Bruins"}],
+    "pastHomes": [
+      {"address": "123 Fake Street"},
+      {"address": "2 Mucninfo Road"}],
+    "goldfish": [
+      {"name": "Bob", "color": "red"},
+      {"name": "Mr.MagicNibbles", "color": "red",
+      "quality": "bites"},
+  ]
+}
+}
+
+-->
 ```
 
 ## JSON Methods
@@ -54,7 +91,9 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+<!-- As stated above: "JSON cannot have methods, since it is a data exchange format. Since it only
+represents data, it cannot have behavior. It cannnot have behavior because it is
+not an object."  -->
 ```
 
 ## JSON Comments
@@ -62,5 +101,10 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+<!-- As stated above: "JSON cannot have comments, since it is just a string. Putting comments in JSON,
+or otherwise treating JSON as if it is a JavaScript object literal, is a common
+source of hard-to-debug errors."
+
+
+-->
 ```
